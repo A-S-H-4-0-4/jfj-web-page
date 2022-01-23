@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // carousel
-import Carousel from 'react-material-ui-carousel'
 import Slider from "react-slick";
 
 // components
@@ -41,15 +40,15 @@ const Home = () => {
   const cards = [
     {
       image: image1,
-      text: "Share any adorable and tasty food image and get a shoutout",
+      text: "I love pizza. I want to marry it, but it would just be to eat her family at the wedding.",
     },
     {
       image: image2,
-      text: "Share review of any restaurant you visited and let the world know",
+      text: "I love pizza. I want to marry it, but it would just be to eat her family at the wedding.",
     },
     {
       image: image3,
-      text: "Share any food or restaurant related experience to the world!!",
+      text: "I love pizza. I want to marry it, but it would just be to eat her family at the wedding.",
     },
 
     
@@ -64,7 +63,7 @@ const Home = () => {
 
 
       <div className={home.cardDiv}>
-        <strong>#IMAGES</strong>
+        <strong>#Blogs</strong>
         {cards.map((object) => {
           return <Card {...object} />
         })}
