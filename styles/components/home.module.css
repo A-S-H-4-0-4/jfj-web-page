@@ -17,8 +17,8 @@
 }
 
 
-.cardDiv{
-  height: 550px;
+.cardDiv {
+  height: 240px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -26,12 +26,13 @@
   position: relative;
   /* border: 1px solid red; */
   margin-top: 20px;
-  position: relative;
-  }
-  .cardDiv strong{
-      font-size: 60px;
-      color: hotpink;
-      text-shadow: 2px 4px 5px  #ccc;
-      position: absolute;
-      top: 0px;
-  }
+  /* position: relative; */
+}
+
+.cardDiv strong {
+  font-size: 20px;
+  color: hotpink;
+  text-shadow: 2px 4px 5px #ccc;
+  top: 0px;
+  position: absolute;
+}
