@@ -5,15 +5,18 @@ import home from "../styles/components/home.module.css";
 // components
 import { Navbar } from "../components/navbar";
 
-
+// logo
+const logo = "/icons/jfjlogo.png"
 
 const Home = () => {
   return (
     <div className={home.screen}>
-   {/* <a href="https://instagram.com/jaipurfoodjunction?utm_medium=copy_link"> </a>
-   <a href=""> </a>
-   <a href=""> </a> */}
-   <Navbar/>
+     
+      <div className={home.logo}>
+        <img src={logo}></img>
+      </div>
+
+      <Navbar />
     </div>
   )
 }
