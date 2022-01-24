@@ -41,43 +41,46 @@ export const Contact = () => {
       </strong>
       <div className={contactStyle.contactSocialMedia}>
         <div className={contactStyle.socialMediaIcon}>
-          <img src={instagram} />
-          <img src={facebook} />
-          <img src={twitter} />
-          <img src={gmail} />
-          <img src={whatsapp} />
-          <img src={linkedin} />
-        </div>
-
-        <div className={contactStyle.signup}>
-          <strong>Sign Up Here</strong>
-          <div className={classes.margin}>
-            <Grid container spacing={0} alignItems="flex-end">
-              <Grid item>
-                <AccountCircle />
-              </Grid>
-              <Grid item>
-                <TextField id="input-with-icon-grid" label="User Name" />
-              </Grid>
-            </Grid>
-          </div>
-          <div className={classes.margin}>
-            <Grid container spacing={0} alignItems="flex-end">
-              <Grid item>
-                <Code />
-              </Grid>
-              <Grid item>
-                <TextField id="input-with-icon-grid" label="Password" />
-              </Grid>
-            </Grid>
-          </div>
-
-          <Gutton text="Subscribe" />
-
+          <div>    <img src={instagram} /> <strong>jaipurfoodjunction</strong> </div>
+          <div>     <img src={facebook} /> <strong>jaipurfoodjunction</strong></div>
+          <div>     <img src={twitter} />  <strong>jaipurfoodjunction</strong></div>
+          <div>     <img src={gmail} />    <strong>jaipurfoodjunction@gmail.com</strong></div>
+          <div>    <img src={whatsapp} />  <strong>7823815841</strong></div>
+          <div>     <img src={linkedin} /> <strong>jaipurfoodjunction</strong></div>
         </div>
 
       </div>
-
     </div>
   )
 }
+
+
+
+// <div className={contactStyle.signup}>
+//           <strong>Sign Up Here</strong>
+//           <div className={classes.margin}>
+//             <Grid container spacing={0} alignItems="flex-end">
+//               <Grid item>
+//                 <AccountCircle />
+//               </Grid>
+//               <Grid item>
+//                 <TextField id="input-with-icon-grid" label="User Name" />
+//               </Grid>
+//             </Grid>
+//           </div>
+//           <div className={classes.margin}>
+//             <Grid container spacing={0} alignItems="flex-end">
+//               <Grid item>
+//                 <Code />
+//               </Grid>
+//               <Grid item>
+//                 <TextField id="input-with-icon-grid" label="Password" />
+//               </Grid>
+//             </Grid>
+//           </div>
+
+//           <Gutton text="Subscribe" />
+
+//         </div>
+
+//       </div>
