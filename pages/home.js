@@ -7,8 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 // components
-import { Navbar } from "../components/navbar";
 import { Card } from "../components/card";
+import { Contact } from "../components/contact";
+import { Footer } from "../components/footer";
+
 
 // logo
 const logo = "/icons/jfjlogo.png"
@@ -61,6 +63,7 @@ const Home = () => {
         <img src={logo}></img>
       </div>
 
+      <Contact />
       <div className={home.about}>
         <strong>#About</strong>
 
@@ -77,7 +80,9 @@ const Home = () => {
       </div>
 
 
-      <Navbar />
+      <Footer />
+
+
     </div>
   )
 }

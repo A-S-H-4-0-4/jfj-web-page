@@ -1,0 +1,21 @@
+.gutton{
+
+  height: 30px !important;
+  width: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  font-size: medium !important;
+  color: hotpink !important;
+  background: white !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  }
+  .gutton:hover{
+  background: linear-gradient(to left,hotpink,pink) !important;
+  color: white !important;
+  
+  }
