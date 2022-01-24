@@ -42,9 +42,11 @@
 }
 
 .socialMediaIcon div{
+  width : 90%;
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
+  margin-left: 12px;
 }
 
 .socialMediaIcon div strong{
