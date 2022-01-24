@@ -13,7 +13,29 @@
 }
 
 .logo img {
-  height: 100px;
+  height: 200px;
+}
+
+.about{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid #eaeaea; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  background:rgb(121, 118, 251)
+}
+
+.about strong {
+  font-size: 20px;
+  color: rgb(26, 26, 26);
+  text-shadow: 2px 4px 5px #ccc;
+}
+
+.about p{
+  color: #ccc;
+  font-weight: 400;
 }
 
 
@@ -25,7 +47,7 @@
   align-items: flex-end;
   position: relative;
   /* border: 1px solid red; */
-  margin-top: 20px;
+  margin-top: 50px;
   /* position: relative; */
 }
 

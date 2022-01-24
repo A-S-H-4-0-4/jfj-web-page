@@ -61,6 +61,12 @@ const Home = () => {
         <img src={logo}></img>
       </div>
 
+        <div className={home.about}>
+        <strong>#ABOUT</strong>
+
+      <p>  </p>
+        </div>
+
 
       <div className={home.cardDiv}>
         <strong>#Blogs</strong>
