@@ -1,0 +1,77 @@
+.footer{
+  height: 500px;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+} 
+.footerHeading{
+  font-size: 50px;
+  text-shadow: 2px 4px 5px #ccc;
+  color: hotpink;
+
+}
+.footerSocialMedia{
+
+height: 300px;
+width: 100%;
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.socialMediaIcon{
+  height: 80%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+
+.socialMediaIcon img{
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  cursor: pointer;
+}
+.signup{
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.signup strong{
+  color: hotpink;
+  font-size: larger;
+  text-shadow: 2px 4px 5px #ccc;
+}
+.footerBottom{
+  height: 100px;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.footerBottom div{
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  align-items: center;
+  width: 300px;
+  color: hotpink;
+  font-size: medium;
+  font-weight: bolder;
+}

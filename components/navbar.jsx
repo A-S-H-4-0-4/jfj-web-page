@@ -11,7 +11,7 @@ import Link from "next/link";
 const twitter = "/icons/twitter.png"
 const instagram = "/icons/instagram.png"
 const facebook = "/icons/facebook.png"
-
+const youtube = "/icons/youtube.png"
 
 export const Navbar = () => {
 
