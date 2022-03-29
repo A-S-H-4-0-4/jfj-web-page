@@ -1,0 +1,17 @@
+.frame{
+
+
+  height: 300px;
+  width: 240px;
+  /* border: 2px solid red; */
+  transform: rotate(-30deg);
+  border: 15px solid white;
+  border-bottom: 50px  solid white;
+  border-radius: 10px;
+  }
+  .frame img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  
+  }
