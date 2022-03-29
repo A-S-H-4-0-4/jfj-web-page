@@ -9,7 +9,7 @@
     background: rgb(200, 190, 38);
     text-align: center;
     border-radius: 10px;
-    box-shadow: 2px 3px 5px 5px rgb(131, 126, 126);
+    /* box-shadow: 2px 3px 5px 5px rgb(131, 126, 126); */
     cursor: pointer;
 
 }
