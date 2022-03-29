@@ -57,6 +57,7 @@ export default class Home extends Component {
       autoplay: false,
       // speed: 1000,
       // cssEase: "linear",
+      arrows: false,
       pauseOnDotsHover: true,
     };
 
