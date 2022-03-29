@@ -47,15 +47,15 @@ export default class Home extends Component {
     ];
 
     const settings = {
-      dots: true,
+      dots: false,
       className: "center",
       centerMode: true,
       infinite: true,
       // centerPadding: "60px",
       slidesToShow: 1,
       // slidesToScroll: 1,
-      autoplay: true,
-      speed: 1000,
+      autoplay: false,
+      // speed: 1000,
       // cssEase: "linear",
       pauseOnDotsHover: true,
     };
